@@ -1,11 +1,12 @@
+#https://github.com/jmjones1998/lab10-JJ.git
+#Partner 1 and 2: Julia Jones
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
-#https://github.com/jmjones1998/lab10-JJ.git
-#Partner 1 and 2: Julia Jones
 
 import math
 
