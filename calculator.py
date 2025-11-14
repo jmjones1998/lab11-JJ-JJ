@@ -1,10 +1,12 @@
+#https://github.com/jmjones1998/lab10-JJ.git
+#Partner 1 and 2: Julia Jones
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
-
 
 import math
 
@@ -38,7 +40,9 @@ def div(a,b):
 
 def logarithm(a,b):
     if a<= 0 or b<= 0 or b == 1:
-        raise ZeroDivisionError
+        raise ValueError
+    return math.log(a,b)
+
 
 def exp(a,b):
     return a**b
