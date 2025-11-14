@@ -10,7 +10,7 @@ class TestCalculator(unittest.TestCase):
     def test_add(self): # 3 assertions
         self.assertEqual(add(1,2), 3)
         self.assertEqual(add(12,8),20)
-        self.assetEqual(add(0,0),0)
+        self.assertEqual(add(0,0),0)
 
     def test_subtract(self): # 3 assertions
         self.assertEqual(subtract(1,2), -1)
@@ -45,7 +45,7 @@ class TestCalculator(unittest.TestCase):
     def test_log_invalid_argument(self): # 1 assertion
         from calculator import logarithm
         with self.assertRaises(ValueError):
-            logarithm(0)
+            logarithm(0,10)
 
     def test_hypotenuse(self): # 3 assertions
         from calculator import hypotenuse
