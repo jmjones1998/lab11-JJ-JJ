@@ -6,6 +6,20 @@ One function per operation, in order.
 """
 import math
 
+def sqaure_root(a):
+    try:
+        if a < 0:
+            raise ValueError
+        return math.sqrt(a)
+    except ValueError as e:
+        raise e
+
+def hypoenuse(a, b):
+    try:
+        return math.hypot(a, b)
+    except Exception as e:
+        raise e
+
 
 def add(a,b):
     return a+b
