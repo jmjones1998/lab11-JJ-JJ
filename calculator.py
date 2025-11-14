@@ -1,6 +1,3 @@
-
-#Partner 1 and 2: Julia Jones
-
 """
 calculator.py
 - Defines functions used to create a simple calculator
