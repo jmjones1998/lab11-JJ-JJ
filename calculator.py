@@ -4,6 +4,13 @@ calculator.py
 
 One function per operation, in order.
 """
+
+
+import math
+
+def add(a, b): 
+    return a + b
+
 import math
 
 def sqaure_root(a):
@@ -43,4 +50,15 @@ def exp(a,b):
     return a**b
 
 
+def subtract(a, b):
+    return a - b
 
+def mul(a, b):
+    return a * b
+
+def logarithm(a, b):
+    if a<= 0 or b <= 0 or b == 1:
+        raise ZeroDivisionError
+
+def exp(a,b):
+    return a ** b
